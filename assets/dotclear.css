@@ -1,0 +1,41 @@
+/* Overrides */
+
+/* Change fragment colors */
+
+.reveal .slides section .fragment.highlight-red.visible {
+  color: #d33800;
+}
+.reveal .slides section .fragment.highlight-green.visible {
+  color: #bee74b;
+}
+.reveal .slides section .fragment.highlight-blue.visible {
+  color: #137bbb;
+}
+.reveal .slides section .fragment.highlight-current-red.current-fragment {
+  color: #d33800;
+}
+.reveal .slides section .fragment.highlight-current-green.current-fragment {
+  color: #bee74b;
+}
+.reveal .slides section .fragment.highlight-current-blue.current-fragment {
+  color: #137bbb;
+}
+
+/* Specific classes */
+
+.logo {
+  float: left;
+  border: none !important;
+  background-color: transparent !important;
+}
+
+.signature {
+  display: block;
+  text-align: right;
+}
+
+.signature-blockquote {
+	text-align: right !important;
+	margin-right: 1em !important;
+	display: inherit !important;
+}
