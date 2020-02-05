@@ -64,10 +64,10 @@ C'est ce qui m'a convaincu de l'essayer (en 2004)
 ## Nos valeurs
 
 * Indépendance
-* Ouverture
-* Transparence
+* Ouverture (licence GPL)
+* Transparence (code disponible en ligne)
 * Accessibilité
-* Support et entraide
+* Support et entraide (forum, documentation, …)
 
 Note:
 Indépendance → Fondation free + serveur perso et noms de domaine (payés par les adhésions et dons)  
@@ -83,7 +83,10 @@ Transparence → fonctionnement associatif
 * Correctrice
 * Comédien
 * Gestionnaire
-* Experte accessibilité
+* Expertes accessibilité
+* Ergonome
+* Étudiants
+* Retraités
 * …
 						</textarea>
 					</section>
@@ -239,7 +242,7 @@ Voir : https://fr.wikipedia.org/wiki/Internet
 ## Hébergement
 
 * Auto-hébergé sur un serveur mutualisé ou dédié
-* Créé sur une plateforme : Gandiblogs, [Blog perso Free](http://blog.free.fr/), Aministration (rectorat de Versailles), …
+* Créé sur une plateforme : Gandiblogs, [Blog perso Free](http://blog.free.fr/), Aministration (rectorat de Versailles), [Kynä](https://kyna.eu/), …
 
 Note:
 - Auto-hébergé implique l'installation et la maintenance
@@ -342,17 +345,55 @@ Destiné à ceux qui n'y connaissent rien, [un pas à pas](http://abc.dotaddict.
 						</textarea>
 					</section>
 				</section>
+				<section>
+					<section data-markdown>
+						<textarea data-template>
+
+## Points clés de Dotclear 1/2
+
+* Multi-blogs
+* Multi-utilisateurs
+* Traductions (plusieurs dizaines de langues disponibles)
+* Extensible (plugins et thèmes)
+* Système de widgets
+* Accessible (côté administration et côté public)
+
+						</textarea>
+					</section>
+					<section data-markdown>
+						<textarea data-template>
+
+## Points clés de Dotclear 2/2
+
+* Installation et mise à jour automatisées
+* Sécurité
+* Dépendance vis-à-vis des codes tiers limitée
+* Multi-éditeurs (wysiwyg, wiki dotclear, markdown, …)
+* Antispam intégré et extensible
+
+						</textarea>
+					</section>
+				</section>
 				<section data-markdown data-background-image="assets/geekerie-biere-saucisson.jpg" data-background-opacity="0.25" data-background-size="100%" data-background-position="50% 50%">
 					<textarea data-template>
+
 ## Pause
 
 Pense à boire avant les travaux pratiques !
 
 					</textarea>
 				</section>
-				<section>
-					<section data-markdown>
-						<textarea data-template>
+				<section data-markdown>
+					<textarea data-template>
+
+## Interlude visuel et musical
+
+<video controls src="assets/dotclear-install.mp4"></video>
+
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
 ## Pratique
 
 * On installe <!-- .element: class="fragment highlight-green visible" -->
@@ -363,8 +404,7 @@ Pense à boire avant les travaux pratiques !
 * Et si on ajoutait une photo ? <!-- .element: class="fragment highlight-green visible" -->
 * Quelqu'un pour commenter ce billet ? <!-- .element: class="fragment highlight-green visible" -->
 
-						</textarea>
-					</section>
+					</textarea>
 				</section>
 				<section data-markdown>
 					<textarea data-template>
@@ -416,6 +456,7 @@ Pense à boire avant les travaux pratiques !
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
 					{ src: 'plugin/highlight/highlight.js' },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
 					{ src: 'plugin/notes/notes.js', async: true }
 				],
 				markdown: {
